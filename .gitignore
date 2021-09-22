@@ -1,6 +1,7 @@
 sdk/JN-SW-4270
 sdk/Tools
 .vscode
+examples
 
 # IntelliJ project files
 .idea

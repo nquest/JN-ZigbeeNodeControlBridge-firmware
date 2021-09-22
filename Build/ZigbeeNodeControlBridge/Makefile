@@ -280,6 +280,8 @@ endif
 
 APPSRC += appZpsExtendedDebug.c
 
+APPSRC += app_lumi_gateway_config.c
+
 LIBNAME = $(TARGET)_PDM$(PDM_BUILD_TYPE)_BAUD_$(BAUD)_DEBUG_$(DEBUG)
 
 
