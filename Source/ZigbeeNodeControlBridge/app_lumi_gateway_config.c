@@ -34,7 +34,7 @@ PUBLIC void APP_vLumiGatewayConfig(void)
     uint8 i;
     ZPS_tsAplAib *psAplAib = ZPS_psAplAibGetAib();
 
-    u16GroupId = 2305;
+    u16GroupId = 901;
 
     vLog_Printf(TRACE_APP, LOG_DEBUG, "\nAdd Group ID: %x", u16GroupId);
     vLog_Printf(TRACE_APP, LOG_DEBUG, "\nAdd EndPoint: %x", 1);
